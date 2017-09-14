@@ -12,7 +12,13 @@
 	      <a href="{{ site.github.url }}{{ nav.url }}">{{ nav.title }}</a>
 		<ul>
 		  {% for subcategory in nav.subcategories %}
-		    <li><a href="{{ site.github.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+		    <li>
+          <a href="{{ site.github.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}
+          {% if subcategory.subsubcategories != null %}
+            Fly out here
+          {% endif %}
+          </a>
+        </li>
 		  {% endfor %}
 		</ul>
 	    </li>
