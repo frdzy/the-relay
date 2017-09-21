@@ -38,7 +38,7 @@ feed:
 #sass:
 #    style: :compressed
 
-permalink: /blog/:year/:title
+permalink: /announcements/:year/:title
 
 #### SEO Stuff
 # Google Analytics
