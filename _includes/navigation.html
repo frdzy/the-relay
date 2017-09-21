@@ -15,7 +15,11 @@
 		    <li>
           <a href="{{ site.github.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}
           {% if subcategory.subsubcategories != null %}
-            Fly out here
+            <ul>
+              {% for subsubcategory in subcategory.subsubcategories %}
+                <li>{{ subsubcategory }}</li>
+              {% endfor %}
+            </ul>
           {% endif %}
           </a>
         </li>
