@@ -13,7 +13,7 @@
 		<ul>
 		  {% for subcategory in nav.subcategories %}
 		    <li>
-          <a href="{{ site.github.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}
+          <a href="{{ site.github.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a>
           {% if subcategory.subsubcategories != null %}
             <ul>
               {% for subsubcategory in subcategory.subsubcategories %}
@@ -21,7 +21,7 @@
               {% endfor %}
             </ul>
           {% endif %}
-          </a>
+          
         </li>
 		  {% endfor %}
 		</ul>
