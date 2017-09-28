@@ -180,9 +180,8 @@
         transition: height .15s ease-in;
 }
 
-#nav .primary-nav ul li ul li{
-        background: #b9e4d9;
-/* Layout */
+#nav .primary-nav ul li ul li a {
+        /* Layout */
         display: block;
         padding: 7px 12px 7px 22px;
         width: 200px;
@@ -195,7 +194,7 @@
         font-weight: 400;
 
         /* Background & effects */
-        //background: $navbar-color;
+        background: $navbar-color;
         -webkit-transition: color .2s ease-in, border-left-color .2s ease-in;;
         -ms-transition: color .2s ease-in, border-left-color .2s ease-in;;
         -moz-transition: color .2s ease-in, border-left-color .2s ease-in;;

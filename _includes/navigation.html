@@ -17,7 +17,9 @@
           {% if subcategory.subsubcategories != null %}
             <ul>
               {% for subsubcategory in subcategory.subsubcategories %}
-                <li>{{ subsubcategory }}</li>
+                <li>
+                  <a href="{{ site.github.url }}{{ subsubcategory.subsubhref }}">{{ subsubcategory.subsubtitle }}</a>
+                </li>
               {% endfor %}
             </ul>
           {% endif %}
