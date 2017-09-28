@@ -19,13 +19,13 @@
 
 - title: "Participants"
   subcategories:
+    - subtitle: "Captain Info"
+      subhref: "/participants/captain_info.html"
     - subtitle: "Participant Info"
       subhref: "/participants/participant_info.html"
       subsubcategories:
       - "text data 1"
       - "text data 2"
-    - subtitle: "Captain Info"
-      subhref: "/participants/captain_info.html"
     - subtitle: "Volunteer Info"
       subhref: "/participants/volunteer_info.html"
     - subtitle: "Travel"
