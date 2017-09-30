@@ -20,6 +20,15 @@
   display: block;
 }
 
+// Site
+.site-header {
+  background-image: url($large-header);
+  background-size: cover;
+  background-position-x: 25%;
+  background-position-y: center;
+  height: 360px;
+}
+
 // Pages
 .page-content {
     padding: $spacing-unit;

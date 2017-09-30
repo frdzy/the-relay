@@ -14,6 +14,10 @@
 @import "icomoon/base";
 
 // Core Layout
+
+// Declared here because Jekyll only processes main.scss and not the imports
+$large-header: "{{ site.github.url }}/{{site.header_large}}";
+
 @import "base";
 @import "layout";
 
@@ -25,11 +29,3 @@
 
 
 // Misc.
-
-// Site
-.site-header {
-  background-image: url({{ site.github.url }}/{{site.header_large}});
-  background-size: cover;
-  background-position-y: center;
-  height: 360px;
-}
