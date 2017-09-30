@@ -25,3 +25,11 @@
 
 
 // Misc.
+
+// Site
+.site-header {
+  background-image: url({{ site.github.url }}/{{site.header_large}});
+  background-size: cover;
+  background-position-y: center;
+  height: 360px;
+}
