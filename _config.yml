@@ -19,6 +19,7 @@ header_xl: images/banner-xl.jpg
 
 # Exclude certain files and ruby stuff
 exclude:
+  - LICENSE
   - README.md
   - TODO.md
   - .bundle
