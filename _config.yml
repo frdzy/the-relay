@@ -1,7 +1,7 @@
 # Site settings
-name: Slim Pickins Jekyll Theme
+name: Golden Gate Relay
 email: 
-author: Chrisanthropic
+author: GGR
 
 keywords: jekyll, jekyll theme, jekyll framework, stuffthings
 description: Witty description here.
@@ -17,8 +17,18 @@ header_large: images/banner-large.jpg
 header_xl: images/banner-xl.jpg
 
 
-# Exclude our ruby stuff
-exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
+# Exclude certain files and ruby stuff
+exclude:
+  - README.md
+  - TODO.md
+  - .bundle
+  - bin
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - s3_website.yml
+  - .last_optimized
 
 
 # Build settings

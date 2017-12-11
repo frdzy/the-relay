@@ -1,6 +1,8 @@
 - title: "Home"
   href: "/"
   subcategories:
+    - subtitle: "Welcome"
+      subhref: "/welcome.html"
     - subtitle: "Register"
       subhref: "/register.html"
     - subtitle: "Announcements"

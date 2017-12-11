@@ -1,0 +1,11 @@
+- [x] `/`
+- [x] `/welcome.md`
+- [x] `/register.md`
+- [x] `/announcements.md`
+- [ ] `/about/`
+- [x] `/about/who_we_are.md`
+- [x] `/about/press_releases.md`
+- [x] `/about/dedication.md`
+- [ ] `/event/`
+- [ ] `/event/runner_course_info.html`
+- [ ] `/event/runner_course_info.html`
